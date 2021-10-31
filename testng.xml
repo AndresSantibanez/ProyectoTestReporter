@@ -6,11 +6,8 @@
 	</listeners>
 	<test thread-count="5" name="Prueba Tecnica Web">
 		<classes>
-			<class name="com.QSTestNG.CargaHome"></class>
-			<class name="com.QSTestNG.Busqueda"></class>
-  			<class name="com.QSTestNG.SeleccionArticulo"></class>
-			<class name="com.QSTestNG.ContinuarCompra"></class>
-			<class name="com.QSTestNG.AgregaCarrito"></class>
+			<class name="com.Copec.CargaHome"></class>
+			<class name="com.Copec.Login"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

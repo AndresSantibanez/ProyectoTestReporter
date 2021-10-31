@@ -1,132 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-29T11:24:59 CLST" name="Suite" finished-at="2021-10-29T11:27:14 CLST" duration-ms="135521">
+  <suite started-at="2021-10-30T21:22:33 CLST" name="Suite" finished-at="2021-10-30T21:22:48 CLST" duration-ms="14893">
     <groups>
     </groups>
-    <test started-at="2021-10-29T11:24:59 CLST" name="Prueba Tecnica Web" finished-at="2021-10-29T11:27:14 CLST" duration-ms="135521">
-      <class name="com.QSTestNG.AgregaCarrito">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.QSTestNG.AgregaCarrito@7ed7259e]" started-at="2021-10-29T11:26:46 CLST" name="beforeClass" finished-at="2021-10-29T11:27:01 CLST" duration-ms="15397" status="PASS">
+    <test started-at="2021-10-30T21:22:33 CLST" name="Prueba Tecnica Web" finished-at="2021-10-30T21:22:48 CLST" duration-ms="14893">
+      <class name="com.Copec.CargaHome">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Copec.CargaHome@64cd705f]" started-at="2021-10-30T21:22:33 CLST" name="beforeClass" finished-at="2021-10-30T21:22:37 CLST" duration-ms="3809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="continuarCompra()[pri:0, instance:com.QSTestNG.AgregaCarrito@7ed7259e]" started-at="2021-10-29T11:27:01 CLST" name="continuarCompra" finished-at="2021-10-29T11:27:14 CLST" duration-ms="13233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- continuarCompra -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.QSTestNG.AgregaCarrito@7ed7259e]" started-at="2021-10-29T11:27:14 CLST" name="afterClass" finished-at="2021-10-29T11:27:14 CLST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.QSTestNG.AgregaCarrito -->
-      <class name="com.QSTestNG.Busqueda">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.QSTestNG.Busqueda@31c88ec8]" started-at="2021-10-29T11:25:15 CLST" name="beforeClass" finished-at="2021-10-29T11:25:30 CLST" duration-ms="15543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.QSTestNG.Busqueda@31c88ec8]" started-at="2021-10-29T11:25:30 CLST" name="beforeMethod" finished-at="2021-10-29T11:25:30 CLST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Busqueda()[pri:0, instance:com.QSTestNG.Busqueda@31c88ec8]" started-at="2021-10-29T11:25:30 CLST" name="Busqueda" finished-at="2021-10-29T11:25:41 CLST" duration-ms="10682" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Busqueda -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.QSTestNG.Busqueda@31c88ec8]" started-at="2021-10-29T11:25:41 CLST" name="afterClass" finished-at="2021-10-29T11:25:41 CLST" duration-ms="115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.QSTestNG.Busqueda -->
-      <class name="com.QSTestNG.ContinuarCompra">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.QSTestNG.ContinuarCompra@3d51f06e]" started-at="2021-10-29T11:26:16 CLST" name="beforeClass" finished-at="2021-10-29T11:26:31 CLST" duration-ms="15274" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="continuarCompra()[pri:0, instance:com.QSTestNG.ContinuarCompra@3d51f06e]" started-at="2021-10-29T11:26:31 CLST" name="continuarCompra" finished-at="2021-10-29T11:26:44 CLST" duration-ms="12334" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- continuarCompra -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.QSTestNG.ContinuarCompra@3d51f06e]" started-at="2021-10-29T11:26:44 CLST" name="afterClass" finished-at="2021-10-29T11:26:46 CLST" duration-ms="2001" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-SFCRMBPM', ip: '26.157.180.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-SFCRMBPM', ip: '26.157.180.140', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
-at com.QSTestNG.ContinuarCompra.afterClass(ContinuarCompra.java:118)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.QSTestNG.ContinuarCompra -->
-      <class name="com.QSTestNG.SeleccionArticulo">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.QSTestNG.SeleccionArticulo@481a996b]" started-at="2021-10-29T11:25:41 CLST" name="beforeClass" finished-at="2021-10-29T11:25:58 CLST" duration-ms="16898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="agregaArticulo()[pri:0, instance:com.QSTestNG.SeleccionArticulo@481a996b]" started-at="2021-10-29T11:25:58 CLST" name="agregaArticulo" finished-at="2021-10-29T11:26:16 CLST" duration-ms="18115" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- agregaArticulo -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.QSTestNG.SeleccionArticulo@481a996b]" started-at="2021-10-29T11:26:16 CLST" name="afterClass" finished-at="2021-10-29T11:26:16 CLST" duration-ms="105" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.QSTestNG.SeleccionArticulo -->
-      <class name="com.QSTestNG.CargaHome">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.QSTestNG.CargaHome@76508ed1]" started-at="2021-10-29T11:24:59 CLST" name="beforeClass" finished-at="2021-10-29T11:25:14 CLST" duration-ms="15379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="cargaHome()[pri:0, instance:com.QSTestNG.CargaHome@76508ed1]" started-at="2021-10-29T11:25:14 CLST" name="cargaHome" finished-at="2021-10-29T11:25:14 CLST" duration-ms="292" status="PASS">
+        <test-method signature="cargaHome()[pri:0, instance:com.Copec.CargaHome@64cd705f]" started-at="2021-10-30T21:22:37 CLST" name="cargaHome" finished-at="2021-10-30T21:22:38 CLST" duration-ms="573" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cargaHome -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.QSTestNG.CargaHome@76508ed1]" started-at="2021-10-29T11:25:14 CLST" name="afterClass" finished-at="2021-10-29T11:25:15 CLST" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Copec.CargaHome@64cd705f]" started-at="2021-10-30T21:22:38 CLST" name="afterClass" finished-at="2021-10-30T21:22:38 CLST" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.QSTestNG.CargaHome -->
+      </class> <!-- com.Copec.CargaHome -->
+      <class name="com.Copec.Login">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Copec.Login@4f209819]" started-at="2021-10-30T21:22:38 CLST" name="beforeClass" finished-at="2021-10-30T21:22:41 CLST" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Login()[pri:0, instance:com.Copec.Login@4f209819]" started-at="2021-10-30T21:22:41 CLST" name="Login" finished-at="2021-10-30T21:22:48 CLST" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.Copec.Login@4f209819]" started-at="2021-10-30T21:22:48 CLST" name="afterClass" finished-at="2021-10-30T21:22:48 CLST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.Copec.Login -->
     </test> <!-- Prueba Tecnica Web -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.QSTestNG.CargaHome">
+      <class name="com.Copec.CargaHome">
         <methods>
           <include name="afterClass"/>
-          <include name="beforeClass"/>
           <include name="cargaHome"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.QSTestNG.CargaHome -->
+      </class> <!-- com.Copec.CargaHome -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
